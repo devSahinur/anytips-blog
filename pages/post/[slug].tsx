@@ -20,7 +20,6 @@ interface Props {
 function Post({ post }: Props) {
   const [submitted, setSubmitted] = useState(false);
 
-  console.log(post.comments[0].name);
 
   const {
     register,
