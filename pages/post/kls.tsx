@@ -20,7 +20,7 @@ interface Props {
 function Post({ post }: Props) {
   const [submitted, setSubmitted] = useState(false);
 
-  console.log(post.comments[0].name);
+  console.log(post)
 
   const {
     register,
@@ -175,14 +175,11 @@ function Post({ post }: Props) {
       <div className="flex flex-col p-10 max-w-2xl mx-auto shadow-yellow-500 shadow space-y-2">
         <h3 className=" text-4xl">Comments</h3>
         <hr className="pb-2" />
-        {post.comments.map((c) => (
-          <div key={c._id}>
-            <p>
-              {" "}
-              <span className="text-yellow-500">{c.name}:</span> {c.comment}
-            </p>
+        {post.comments.map((comment) => {
+          <div key={comment._id}>
+            <p> <span className="text-yellow-500">{comment.name}: </span> {comment.comment}</p>
           </div>
-        ))}
+        })}
       </div>
     </main>
   );
@@ -213,23 +210,23 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const query = `*[_type == "post" && slug.current == $slug][0]{
-        _id,
-       _createAt,
-        title,
-        author-> {
-        name,
-        image
-      },
-      'comments': *[
-        _type == 'comment' &&
-        post._ref == ^._id &&
-        approved == true],
-      description,
-      slug,
-      mainImage,
-      body
-    }`;
+  const query = `*[_type == "post" && slug.current == 'this-is-my-second-post'][0]{
+    _id,
+   _createAt,
+    title,
+    author-> {
+    name,
+    image
+  },
+'comments': *[
+  _type == 'comment' &&
+  post._ref == ^._id &&
+  approved == true],
+  description,
+  slug,
+  mainImage,
+  body,
+}`;
 
   const post = await sanityClient.fetch(query, {
     slug: params?.slug,

@@ -1,0 +1,188 @@
+{
+    "_createdAt": "2022-01-23T18:22:03Z",
+    "_id": "f2b2b08e-692a-4ee6-983c-0d90fd68c81b",
+    "_rev": "1mkF0t783lKYmfwjqcFE6P",
+    "_type": "post",
+    "_updatedAt": "2022-02-11T18:50:11Z",
+    "author": {
+      "_ref": "65548e7c-f4aa-4d59-99db-c421ab68349e",
+      "_type": "reference"
+    },
+    "body": [
+      {
+        "_key": "edb9abc850cc",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "bdb07116d626",
+            "_type": "span",
+            "marks": [],
+            "text": "This is the first post on medium build"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "af4e765a7d44",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "b2d4a0585347",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "a7bd2273595e",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "33dc15ea81df",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "1b24545c337d",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "1e440a5ac9ae",
+            "_type": "span",
+            "marks": [],
+            "text": "this is nice "
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "49086fecb57b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "7d068d018708",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "52fa42b5991b",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-c77aa3468d68a0fec7b670a51dac974061aee9fd-550x308-png",
+          "_type": "reference"
+        },
+        "crop": {
+          "_type": "sanity.imageCrop",
+          "bottom": 0,
+          "left": 0,
+          "right": 0.009090909090909038,
+          "top": 0
+        },
+        "hotspot": {
+          "_type": "sanity.imageHotspot",
+          "height": 1,
+          "width": 0.5527272727272726,
+          "x": 0.6036363636363635,
+          "y": 0.5
+        }
+      },
+      {
+        "_key": "4147cc0b542b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "45fb21326190",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "099c399bbd76",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "2bc71cccbc04",
+            "_type": "span",
+            "marks": [],
+            "text": ""
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "2e57a9c0d7ea",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "4e09b90c126d",
+            "_type": "span",
+            "marks": [],
+            "text": "Boom !!!!"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "8d7fca5222b7",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "47df355c9763",
+            "_type": "span",
+            "marks": [],
+            "text": "ok-bye"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "236eb051817a",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "ead91c36a30e",
+            "_type": "span",
+            "marks": [],
+            "text": "yoooooooooooo!!"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "description": "This is the first  ever post on own",
+    "mainImage": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-c77aa3468d68a0fec7b670a51dac974061aee9fd-550x308-png",
+        "_type": "reference"
+      }
+    },
+    "slug": {
+      "_type": "slug",
+      "current": "my-fist-post"
+    },
+    "title": "My fist Post"
+  }
