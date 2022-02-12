@@ -1,7 +1,7 @@
 # **Medium 2.0**
 
 
-### `Demo Link :` [https://sahinur-medium.vercel.app](https://sahinur-medium.vercel.app)
+### `Demo Link :` [https://www.anytips.tk](https://www.anytips.tk)
 
 ### `Sanity CMS Link :` [https://sanitysahinur.sanity.studio](https://sanitysahinur.sanity.studio)
 
