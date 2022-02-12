@@ -1,4 +1,4 @@
-# **Medium 2.0**
+# **AnyTips**
 
 
 ### `Demo Link :` [https://www.anytips.tk](https://www.anytips.tk)
