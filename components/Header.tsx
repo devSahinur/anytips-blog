@@ -8,7 +8,7 @@ function Header() {
         <Link href="/">
           <img
             className="w-44 object-contain cursor-pointer"
-            src="https://links.papareact.com/yvf"
+            src="https://i.ibb.co/5s8cBwL/anytips-logo-black.png"
             alt=""
           />
         </Link>
