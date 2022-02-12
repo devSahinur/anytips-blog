@@ -24,7 +24,7 @@ export default function Home({ posts }: Props) {
             <span className="underline decoration-black decoration-4">
               AnyTips
             </span>{" "}
-            is a place to write, read and connect
+            is a place to write, read and connect 
           </h1>
           <h2 className="">
             It's easy and free to post your thinking on any topic and connect
