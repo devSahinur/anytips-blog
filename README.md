@@ -1,7 +1,7 @@
 # **AnyTips**
 
 
-### `Demo Link :` [https://www.anytips.tk](https://www.anytips.tk)
+### `Demo Link :` [https://anytips.vercel.app/](https://anytips.vercel.app/)
 
 ### `Sanity CMS Link :` [https://sanitysahinur.sanity.studio](https://sanitysahinur.sanity.studio)
 
